@@ -3,35 +3,38 @@
 **Name (Team Member 1):**_________________________  
 **Name (Team Member 2):**_________________________
 
-In this recitation, we will investigate asymptotic complexity. Additionally, we will get familiar with the various technologies we'll use for collaborative coding.
+In this recitation, we will investigate asymptotic complexity. Additionally, we will get familiar with the various technologies we'll use for recitations and assignments for this semester.
 
 To complete this recitation, follow the instructions in this document. Some of your answers will go in this file, and others will require you to edit `main.py`.
 
 
 ## Setup
 - Login to Github.
-- Click on the assignment link sent through canvas and accept the assignment.
-- Click on your personal github repository for the assignment (e.g., https://github.com/tulane-cmps2200/recitation-01-your_username).
-- Click on the "Work in Repl.it" button. This will launch an instance of `repl.it` initialized with the code from your repository.
-  - If you don't see a "Work in Repl.it" button, instead do:
-    - Go to repl.it
-    - Click the "+" to make a new repl.it
-    - Click "Import from github"
-    - Enter your github assignment url: e.g., https://github.com/tulane-cmps2200/recitation-01-your-username
-- You'll work with a partner to complete this recitation. To do so, we'll break you into Zoom rooms. You will be able to code together in the same `repl.it` instance. You can choose whose repl.it instance you will share. This person will click the "Share" button in their repl.it instance and email the lab partner.
-
+- Click on the assignment link posted on canvas and accept the assignment.
+- Click on your personal github repository for the assignment (e.g., https://github.com/CMPS-2200/recitation-01-your_username).
+- [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) the repository to your local device
+- Complete the lab task 
+- Add, commit, and push your completed lab back up to GitHub. 
+  - You will need to issue `git add` for all files that you have modified, e.g., `main.py`, `README.md`, and any others that you modify as well.
+  - For example, on the command line, in the same directory as your cloned lab:
+```
+$ git add main.py
+$ git commit -m "Implement Required Functions"
+$ git push origin main
+```
 ## Running and testing your code
-- Clicking the "play" button will run all tests in your code.
-- It's usually best to run only one test at a time. To run tests, from the command-line shell, you can run
+- You can run the tests using `pytest`. To install `pytest`, on your terminal:
+  + `pip3 install pytest`
+  + You may also have to install other python modules such as `tabulate` or other imported modules as you work through these recitations.
+- It's usually best to run only one test at a time. To run tests, from the command-line, you can run
   + `pytest -s main.py` will run all tests
   + `pytest -s main.py::test_one` will just run `test_one`
-  
-## Turning in your work
+- If you want to run your whole program, make sure to use `python3`. `python` still defaults to python version 2.
 
-- Once complete, click on the "Version Control" icon in the left pane on repl.it.
-- Enter a commit message in the "what did you change?" text box
-- Click "commit and push." This will push your code to your github repository.
-- Although you are working as a team, please have each team member submit the same code to their repository. One person can copy the code to their repl.it and submit it from there.
+## Turning in your work
+- You may work with a partner to complete this recitation.
+- Only one team member needs to push your completed lab to github. 
+- In the README.md file, include the names of the team members.
 
 ## Comparing search algorithms
 
