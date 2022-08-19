@@ -2,7 +2,7 @@
 
 In this recitation, we will investigate asymptotic complexity. 
 
-To complete this recitation, follow the instructions in [recitation-01.md](recitation-01.md). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
+To complete this recitation, follow the instructions in [recitation-01.md](recitation-01.md) ([PDF version](recitation-01.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
 
 ## Turning in your work
 - You may work with a partner to complete this recitation.

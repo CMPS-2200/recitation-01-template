@@ -4,7 +4,7 @@ In this recitation, we will investigate asymptotic complexity.
 
 Some prompts will require you to edit `main.py` and others will require answers will go in `answers.md`.
 
-Refer back to [README.md](README.md) for instruction on git, how to test your code, and how to submit properly to get all the points you've earned.
+Refer back to the [README.md](README.md) for instruction on git, how to test your code, and how to submit properly to get all the points you've earned.
 
 ## Comparing search algorithms
 
