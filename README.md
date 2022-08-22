@@ -34,4 +34,28 @@ To complete this recitation, follow the instructions in [recitation-01.md](recit
   + GitHub will test your code using `pytest`.
 - If you want to run your whole program, make sure to use `python3`. `python` might still default to python version 2.
 
+## About Markdown
+
+We use Markdown extensively in these recitations. Markdown is a great way to easily add formatting to simple text documents.
+
+Here is a [cheatsheet] for markdown syntax.
+
+You will notice in the recitation documents that you can format mathematical expressions in markdown. To do so, wrap them in dollar signs. You can use [latex syntax] within the dollar signs. 
+
+For example, the run time of our first example, linear search, this semester is $c_1*n + c_2*n + c_4 \in O(n)$. 
+
+More generally, the runtime of any program can be expressed as:
+
+$$\sum_i c_i * n_i$$
+
+for every instruction $n_i$ and its cost $c_i$.
+
+It's easy to do powers too. Euler's identity states: $e^{ix} + 1 = 0$
+
+Pretty cool, huh?
+
+You can also convert from markdown to pdf. `convert.sh` is provided for you to convert your `answers.md` to `answers.pdf`. As the comment in the script says, you will need to install pandoc and latex, but its pretty convenient to be able to do so. You do not need to submit you answers in PDF format, but you may if you like.
+
 [Clone]: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository
+[cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[latex syntax]: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
