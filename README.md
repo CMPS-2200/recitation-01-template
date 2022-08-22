@@ -12,7 +12,7 @@ To complete this recitation, follow the instructions in [recitation-01.md](recit
   - Submit to Canvas in group with your partner.
 
 ## Using Git 
-- [Clone] your Recitation 01 repository to your local device.
+- [Clone] your Recitation repository to your local device.
 - As you complete this lab, `add`, `commit`, and `push` your work up to GitHub. 
   - You will need to issue `git add` for all files that you have modified, e.g., `main.py`, `answers.md`, and any others that you modify or add to the repository as well.
   - For example, on the command line, in the same directory as your cloned lab:
