@@ -19,4 +19,6 @@ Place all written answers from `recitation-01.md` here for easier grading.
 
 - **10b)** For binary search? 
 
-- **10c)** For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? 
+- **10c)** For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? You may assume that your sorting algorithm runs in $O(n \lg n)$ time.
+
+   
