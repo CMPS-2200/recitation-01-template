@@ -43,6 +43,6 @@ In this lab, we'll compare the running times of `linear_search` and `binary_sear
   + For binary search? 
   
       **Enter your answer in answers.md**
-  + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? You may assume that your sorting algorithm runs in $O(n \lg n)$ time.
+  + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting?
   
       **Enter your answer in answers.md**
